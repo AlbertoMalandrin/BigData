@@ -8,6 +8,7 @@ print(numeri)
 print(numeri[0:3])
 print(numeri[3:])
 print(numeri[-1])
+print(" ")
 
 giorni=['lun', 'mar', 'mer', 'gio', 'ven']
 print(giorni.count('gio'))
@@ -22,17 +23,22 @@ print(giorni)
 #print(giorni)
 print(giorni.pop()) #elimina ultimo elemento e te lo restituisce
 print(giorni)
+print(" ")
 
-#le stringhe sono particolari tipi di array
+#le stringhe sono particolari tipi di array (liste)
 nome="Mario"
 print(nome[2])
 print(len(nome))
 print(nome[2:4])
+print(" ")
 
 #tuple (lista non modificabile)
 costanti=('abc', 'pass', 'ssid')
 print(len(costanti))
+costanti=costanti[1:]
 print(costanti[1])
+
+print(" ")
 
 #set ossia insiemi, non garntisce l'ordine e non ammette duplicati
 s1={'A', 'B', 'C'}
